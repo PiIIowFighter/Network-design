@@ -1,0 +1,14 @@
+本项目实现了使用TCP协议传输文本文件，并将结果翻转的功能。
+
+运行环境：
+	python 3.12
+具体库要求：
+	threading
+	struct
+	socket
+	random
+	sys
+
+运行：
+	python reversetcpserver.py
+	python reversetcpclient.py <服务器IP> <服务器端口> <输入文件> <分块最小长度> <分块最大长度>
